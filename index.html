@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Insane Clown Posse</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="has-background-black">
+    <nav
+      class="navbar has-background-black"
+      role="navigation"
+      aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="https://bulma.io">
+          <img
+            src="images/Gathering-og-the-Juggalos-Hatchetman-Logo-Faygoluvers-.png"
+            width="40"
+            height="150"
+          />
+        </a>
+
+        <a
+          role="button"
+          class="navbar-burger"
+          aria-label="menu"
+          aria-expanded="false"
+          data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item has-text-danger" href="index.html"> Home </a>
+
+         <a class="navbar-item has-text-danger" href="about.html "> About </a>
+         <a class="navbar-item has-text-danger" href="discography.html"> Albums </a>
+
+          <a class="navbar-item has-text-danger" href="music-videos.html"> Music Vids </a>
+
+          <a class="navbar-link has-text-danger" href="tour.html"> Tour </a>
+        </div>
+      </div>
+    </nav>
+        <div class="navbar-end">
+      </div>
+    </nav>
+    <img src="images/ICP.png" alt="icp">
+      <div class="card-image has-text-centered">
+    <a href="https://www.vulture.com/2021/08/nathan-rabin-on-the-insane-clown-posses-summer-festival.html#_ga=2.118236169.1821972264.1670891687-905222321.1670891687"
+    ><img src="images/beed6216c11cbdf806ca76242b08e28bd5-switched-on-pop-icp.2x.rsquare.w700.webp"></a>
+    <a href="https://loudwire.com/insane-clown-posse-statement-violent-j-hospitalization/"><img src="images/attachment-Insane-Clown-Posse-Violent-J.jpg"></a>
+      </div>
+      <div class='card-content is-flex is-horizontal-center'>
+    <a href="https://open.spotify.com/artist/4xtWjIlVuZwTCeqVAsgEXy">
+      <img src="images/pngwing.com-14.png" class="image is-96x96"/>
+
+    </a>
+    <a href="https://music.amazon.com/artists/B000TE050M/insane-clown-posse?ref_=dmm_acq_mrn_d_ds_a_z_-c_c_634248708893_g_120309761644&gclid=CjwKCAiAv9ucBhBXEiwA6N8nYDD1xfjq42NING75hmvHD3CE_v4le4gP3cnlz7nOYVmIRkkYpxxtAhoCP7YQAvD_BwE">
+      <img src="images/pngwing.com-16.png" class="image is-96x96"/>
+    </a>
+    <a href="https://music.apple.com/us/artist/insane-clown-posse/266434">
+      <img src="images/pngwing18.png" class="image is-96x96"/>
+    </a>
+      </div>
+    <!-- SCRIPT TAGS AT THE END OF THE BODY -->
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        // Get all "navbar-burger" elements
+        const $navbarBurgers = Array.prototype.slice.call(
+          document.querySelectorAll(".navbar-burger"),
+          0
+        );
+
+        // Add a click event on each of them
+        $navbarBurgers.forEach((el) => {
+          el.addEventListener("click", () => {
+            // Get the target from the "data-target" attribute
+            const target = el.dataset.target;
+            const $target = document.getElementById(target);
+
+            // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+            el.classList.toggle("is-active");
+            $target.classList.toggle("is-active");
+          });
+        });
+      });
+    </script>
+  </body>
+</html>

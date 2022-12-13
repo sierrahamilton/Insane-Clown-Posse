@@ -1,0 +1,55 @@
+.icp {
+  width: 1131px;
+  height: 379px;
+  align-items: center;
+}
+.nav-link:link {
+  color: crimson;
+}
+.ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.white-box {
+  width: 629px;
+  height: 448px;
+}
+.spotify {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.amazon {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.apple {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.responsive-video {
+  width: 100%;
+  aspect-ratio: 16/9;
+}
+.is-horizontal-center {
+  justify-content: center;
+}
+.is-horizontal-center {
+  justify-content: center;
+}
+
+.album-cover {
+  width: 100%;
+}
+.the_members {
+  width: 20%;
+}
